@@ -1,0 +1,41 @@
+/*--------------------------------------------------------------
+# Navbar section
+--------------------------------------------------------------*/
+@media (max-width: 500px) {
+  .navbar {
+    padding-top: 1rem !important;
+    padding-bottom: 1rem !important;
+    padding-left: 3rem !important;
+    padding-right: 3rem !important;
+  }
+}
+
+/*--------------------------------------------------------------
+#Banner section
+--------------------------------------------------------------*/
+@media (max-width: 991px) {
+  #banner .right-banner {
+    padding-left: 10px;
+  }
+  .intro {
+    padding: 100px 100px 0px 100px;
+  }
+}
+
+/*--------------------------------------------------------------
+#About me section(GLOBAL SEC)
+--------------------------------------------------------------*/
+@media (max-width: 675px) {
+  .half-half-image-text {
+    padding: 50px 50px 0px 100px;
+  }
+  .half-half-image-text .hover12 {
+    padding: 50px 0px 0px 0px;
+  }
+}
+
+@media (max-width: 575px) {
+  .footer {
+    margin-top: 200px;
+  }
+}

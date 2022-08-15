@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rashid Shahriar</title>
+
+  <!-- Importing bootstrap 5.0v -->
+  <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/media.css" />
+
+  <!--Importing jQuery (Java)-->
+
+  <script src="js/jquery-3.6.0.min.js"></script>
+
+  <!-- Google Fonts -->
+
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700"
+    rel="stylesheet" />
+
+  <!-- Favicons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+  <!--Importing Fontawesome(Java Script)-->
+
+  <script src="https://kit.fontawesome.com/b262238477.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <!-- Navbar  -->
+  <header class="header">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark ps-5 pe-5">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#banner">Rashid Shahriar</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <div class="mx-auto"></div>
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#banner"><mark class="red">01.</mark> Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#about_me"><mark class="red">02.</mark> About me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#sectionskills"><mark class="red">03.</mark> Skill</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#contact"><mark class="red">04.</mark> Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Banner Image  -->
+
+  <section id="banner">
+    <div class="intro">
+      <div class="row">
+        <!-- Banner Image (Left column) -->
+        <div class="col-12 col-lg-6 left-banner">
+          <h6>
+            <div class="small">
+              Hi! my name is
+            </div>
+            Rashid Shahriar<br />
+            <div class="g">
+              I write code to <br />
+              make your life easier
+            </div>
+          </h6>
+        </div>
+        <!-- Banner Image  (Right column)-->
+        <div class="col-12 col-lg-6 right-banner ">
+          <div id="container">
+            <span id="text1"></span>
+            <span id="text2"></span>
+          </div>
+          <svg id="filters">
+            <defs>
+              <filter id="threshold">
+                <feColorMatrix in="SourceGraphic" type="matrix" values="1 0 0 0 0
+									0 1 0 0 0
+									0 0 1 0 0
+									0 0 0 255 -140" />
+              </filter>
+            </defs>
+          </svg>
+          <h2>
+            Sir, Hope you are haveing a good day. <br />
+            Welcome to my portfolio
+          </h2>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About me  -->
+
+  <section id="about_me">
+    <div class="half-half-image-text">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="content">
+              <p>
+                <b>HI !</b> <br>
+                I am a talented, ambitious and hardworking individual, with skills and experience in
+                web development projects. <br> <br>
+                Furthermore, I am adept at handling multiple tasks on a daily basis competently and at working well
+                under pressure. <br> <br>
+                Currently I am studying Computer Science in Varendra University.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-6 justify-content-center align-items-center">
+            <div class="hover12 column">
+              <div>
+                <figure><img src="img/pro_pic.jpg" class="rounded" height="250rem" width="250rem" /></figure>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- My skill  -->
+  <section id="sectionskills">
+    <div class="container">
+      <div class="row responsive">
+        <div class="col-md-12">
+          <div class="skills_section text-center">
+            <div class="skill-head">
+              <h1 class="font-60">
+                my progress
+              </h1>
+              <p>The main area of my expertise.
+              </p>
+            </div>
+
+            <div class="skills-area">
+              <div class="single-skill">
+                <div class="circlechart" data-percentage="92"><svg class="circle-chart"
+                    viewBox="0 0 33.83098862 33.83098862" xmlns="http://www.w3.org/2000/svg">
+                    <circle class="circle-chart__background" cx="16.9" cy="16.9" r="15.9"></circle>
+                    <circle class="circle-chart__circle success-stroke" stroke-dasharray="92,100" cx="16.9" cy="16.9"
+                      r="15.9"></circle>
+                    <g class="circle-chart__info"> <text class="circle-chart__percent" x="17.9" y="15.5">92%</text><text
+                        class="circle-chart__subline" x="16.91549431" y="22">
+                        HTML5
+                      </text> </g>
+                  </svg></div>
+              </div>
+              <div class="single-skill">
+                <div class="circlechart" data-percentage="90"><svg class="circle-chart"
+                    viewBox="0 0 33.83098862 33.83098862" xmlns="http://www.w3.org/2000/svg">
+                    <circle class="circle-chart__background" cx="16.9" cy="16.9" r="15.9"></circle>
+                    <circle class="circle-chart__circle success-stroke" stroke-dasharray="90,100" cx="16.9" cy="16.9"
+                      r="15.9"></circle>
+                    <g class="circle-chart__info"> <text class="circle-chart__percent" x="17.9" y="15.5">90%</text><text
+                        class="circle-chart__subline" x="16.91549431" y="22">
+                        CSS3
+                      </text> </g>
+                  </svg></div>
+              </div>
+              <div class="single-skill">
+                <div class="circlechart" data-percentage="85"><svg class="circle-chart"
+                    viewBox="0 0 33.83098862 33.83098862" xmlns="http://www.w3.org/2000/svg">
+                    <circle class="circle-chart__background" cx="16.9" cy="16.9" r="15.9"></circle>
+                    <circle class="circle-chart__circle success-stroke" stroke-dasharray="85,100" cx="16.9" cy="16.9"
+                      r="15.9"></circle>
+                    <g class="circle-chart__info"> <text class="circle-chart__percent" x="17.9" y="15.5">85%</text><text
+                        class="circle-chart__subline" x="16.91549431" y="22">
+                        Bootstrap
+                      </text> </g>
+                  </svg></div>
+              </div>
+              <div class="single-skill">
+                <div class="circlechart" data-percentage="82"><svg class="circle-chart"
+                    viewBox="0 0 33.83098862 33.83098862" xmlns="http://www.w3.org/2000/svg">
+                    <circle class="circle-chart__background" cx="16.9" cy="16.9" r="15.9"></circle>
+                    <circle class="circle-chart__circle success-stroke" stroke-dasharray="42,100" cx="16.9" cy="16.9"
+                      r="15.9"></circle>
+                    <g class="circle-chart__info"> <text class="circle-chart__percent" x="17.9" y="15.5">42%</text><text
+                        class="circle-chart__subline" x="16.91549431" y="22">
+                        JavaScript
+                      </text> </g>
+                  </svg></div>
+              </div>
+
+              <div class="single-skill">
+                <div class="circlechart" data-percentage="82"><svg class="circle-chart"
+                    viewBox="0 0 33.83098862 33.83098862" xmlns="http://www.w3.org/2000/svg">
+                    <circle class="circle-chart__background" cx="16.9" cy="16.9" r="15.9"></circle>
+                    <circle class="circle-chart__circle success-stroke" stroke-dasharray="60,100" cx="16.9" cy="16.9"
+                      r="15.9"></circle>
+                    <g class="circle-chart__info"> <text class="circle-chart__percent" x="17.9" y="15.5">60%</text><text
+                        class="circle-chart__subline" x="16.91549431" y="22">
+                        PHP
+                      </text> </g>
+                  </svg></div>
+              </div>
+
+              <div class="single-skill">
+                <div class="circlechart" data-percentage="82"><svg class="circle-chart"
+                    viewBox="0 0 33.83098862 33.83098862" xmlns="http://www.w3.org/2000/svg">
+                    <circle class="circle-chart__background" cx="16.9" cy="16.9" r="15.9"></circle>
+                    <circle class="circle-chart__circle success-stroke" stroke-dasharray="50,100" cx="16.9" cy="16.9"
+                      r="15.9"></circle>
+                    <g class="circle-chart__info"> <text class="circle-chart__percent" x="17.9" y="15.5">50%</text><text
+                        class="circle-chart__subline" x="16.91549431" y="22">
+                        JAVA
+                      </text> </g>
+                  </svg></div>
+              </div>
+
+              <div class="single-skill">
+                <div class="circlechart" data-percentage="82"><svg class="circle-chart"
+                    viewBox="0 0 33.83098862 33.83098862" xmlns="http://www.w3.org/2000/svg">
+                    <circle class="circle-chart__background" cx="16.9" cy="16.9" r="15.9">
+                    </circle>
+                    <circle class="circle-chart__circle success-stroke" stroke-dasharray="75,100" cx="16.9" cy="16.9"
+                      r="15.9"></circle>
+                    <g class="circle-chart__info"> <text class="circle-chart__percent" x="17.9" y="15.5">75%</text><text
+                        class="circle-chart__subline" x="16.91549431" y="22">
+                        C/C++
+                      </text> </g>
+                  </svg></div>
+              </div>
+
+              <div class="single-skill">
+                <div class="circlechart" data-percentage="82"><svg class="circle-chart"
+                    viewBox="0 0 33.83098862 33.83098862" xmlns="http://www.w3.org/2000/svg">
+                    <circle class="circle-chart__background" cx="16.9" cy="16.9" r="15.9"></circle>
+                    <circle class="circle-chart__circle success-stroke" stroke-dasharray="82,100" cx="16.9" cy="16.9"
+                      r="15.9">
+                    </circle>
+                    <g class="circle-chart__info"> <text class="circle-chart__percent" x="17.9" y="15.5">50%</text><text
+                        class="circle-chart__subline" x="16.91549431" y="22">
+                        Python
+                      </text> </g>
+                  </svg></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Contact page  -->
+
+  <footer id="contact" class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <h4>Contact</h4>
+          <p>
+            Email : <a href="mailto:hello@floix.com"> rashidslink@gmail.com </a></p>
+        </div>
+        <div class="col-md-3">
+          <h4>Social presense</h4>
+          <ul class="footer-share">
+            <li><a href="https://www.facebook.com/messages/t/100024032296903"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="https://github.com/10KNOOB"><i class="fa fa-github"></i></a></li>
+            <li><a href="https://www.linkedin.com/in/rashid-shahriar-568b121b7/"><i class="fa fa-linkedin"></i></a></li>
+          </ul>
+        </div>
+        <div class="col-md-5">
+          <p>© 2022 All rights reserved.<br>
+            Made with <i class="fa fa-heart pulse"></i> by Rashid Shahriar</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/main.js"></script>
+
+  <!--Importing typing text (Java Script)-->
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <!--Importing Bootstrap (Java Script)-->
+
+  <script src="lib/bootstrap/js/bootstrap.js"></script>
+</body>
+
+</html>
